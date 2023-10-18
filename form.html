@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+</head>
+<body>
+  <h1>Registration Form</h1>
+<table border="1">
+  <form action="submit.php" method="POST">
+    <label for="student-name">Student Name:</label>
+    <input type="text" id="student-name" name="student-name" required><br>
+
+    <label for="father-name">Father's Name:</label>
+    <input type="text" id="father-name" name="father-name" required><br>
+
+    <label for="mother-name">Mother's Name:</label>
+    <input type="text" id="mother-name" name="mother-name" required><br>
+
+    <label for="date-of-birth">Date of Birth:</label>
+    <input type="date" id="date-of-birth" name="date-of-birth" required><br>
+
+    <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label><br>
+
+    <label for="email">Email ID:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="mobile">Mobile No.:</label>
+    <input type="tel" id="mobile" name="mobile" required><br>
+
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" required></textarea><br>
+
+    <label for="state">State:</label>
+    <input type="text" id="state" name="state" required><br>
+
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city" required><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</table>
+</body>
+</html>
